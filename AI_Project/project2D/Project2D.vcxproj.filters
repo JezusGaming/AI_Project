@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Container Types">
+      <UniqueIdentifier>{f28ea589-31f1-4098-822f-c9b721f87212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Design Patterns">
+      <UniqueIdentifier>{c86332c0-6a3a-4ece-bfd9-7ad775b4eda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math Lib">
+      <UniqueIdentifier>{43830c01-e10a-4a5f-86c4-2a5f9169d86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DecsionTree">
+      <UniqueIdentifier>{57339e25-a9aa-4a67-bd1f-af5583f441f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviourTree">
+      <UniqueIdentifier>{fdc79ccf-d456-49a5-b999-1e1ec1baf2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behaviours">
+      <UniqueIdentifier>{9e3b0910-5571-438f-865c-daaaf44f2b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{405cf4f4-bb51-43a5-a87c-0e56c405bf6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{a832aa92-d071-4cb1-887d-4b3b5a593db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PathFinding">
+      <UniqueIdentifier>{78b87922-b2ce-49f6-ae12-79a262cbf9c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrive.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="AIBehaviourTree.cpp">
+      <Filter>BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="AFlee.cpp">
+      <Filter>DecsionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="ASeek.cpp">
+      <Filter>DecsionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Controlled.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlledPlayer.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionButtonPressed.cpp">
+      <Filter>DecsionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionNothingPressed.cpp">
+      <Filter>DecsionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionPrint.cpp">
+      <Filter>DecsionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionPlayer.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionTree.cpp">
+      <Filter>DecsionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Flee.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowBehaviour.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardBehaviour.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="PathPlayer.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Patrol.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Seek.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderPlayer.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Wander.cpp">
+      <Filter>Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState.cpp">
+      <Filter>Design Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="AIStateMachine.cpp">
+      <Filter>Design Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Design Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>Design Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Design Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2.cpp">
+      <Filter>Math Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Math Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Math Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Math Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Math Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNode.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>Math Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Math Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Math Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Math Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorClass.h">
+      <Filter>Math Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Container Types</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="AIStateMachine.h">
+      <Filter>Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState.h">
+      <Filter>Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDecision.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionButtonPressed.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionNothingPressed.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionPrint.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionQuestion.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTree.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourNode.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleAction.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleQuestion.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarNode.h">
+      <Filter>PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="GridNode.h">
+      <Filter>PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="AIBehaviourTree.h">
+      <Filter>BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="AFlee.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ASeek.h">
+      <Filter>DecsionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrive.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Flee.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowBehaviour.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardBehaviour.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Wander.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Seek.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Controlled.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="IBehaviour.h">
+      <Filter>Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Idle.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Patrol.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderPlayer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PathPlayer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledPlayer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionPlayer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
